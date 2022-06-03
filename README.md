@@ -1,1 +1,3 @@
-# reclassify-nba-players
+# Reclassifing NBA Players through Unsupervised Learning
+
+In modern basketball game, only five positions are not enough to accurately describe players’ diverse playstyles. This research paper aims at redefining classes for NBA players using two unsupervised learning methods: K-Means Clustering and Gaussian Mixture Models. Players’ metrics were crawled and then further cleansed. Concerning the dimensionality of the dataset, feature selection using cor- relation matrix and dimensionality reduction via Principal Component Analysis were both applied. The processed matrix was fit into both clustering method and Gaussian Mixture Models yielded desirable results with 8 clusters being successfully grouped.
